@@ -1,10 +1,10 @@
-var ServerID1 = "495677413464997889"; //اي دي السيرفر
+var ServerID = "495677413464997889"; //اي دي السيرفر
 var ServerID2 = "495677413464997889"; //
 var ServerID3 = "495677413464997889"; //
 var ServerID4 = "495677413464997889"; //
 var ServerID5 = "495677413464997889"; //
 
-var ChannelID1 = "495837784804687872";// اي دي الروم
+var ChannelID = "495837784804687872";// اي دي الروم
 var ChannelID2 = "495837842010931200";// 
 var ChannelID3 = "495837892875386890";// 
 var ChannelID4 = "495837903730114560";// 
@@ -28,7 +28,7 @@ client.on('reconnecting', () => console.log('PROBOT credits miner is reconnectin
 
 function timerFunc() {
     client.on('message', msg => {
-        client.guilds.get(ServerID5).channels.get(ChannelID5).send(Math.random().toString(36).substring(7))
+        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7))
 
 
     });
