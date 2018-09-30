@@ -1,14 +1,5 @@
-var ServerID = "495677413464997889"; //اي دي السيرفر
-var ServerID2 = "495677413464997889"; //
-var ServerID3 = "495677413464997889"; //
-var ServerID4 = "495677413464997889"; //
-var ServerID5 = "495677413464997889"; //
-
+var ServerID = "495832875875434497"; //اي دي السيرفر
 var ChannelID = "495837784804687872";// اي دي الروم
-var ChannelID2 = "495837842010931200";// 
-var ChannelID3 = "495837892875386890";// 
-var ChannelID4 = "495837903730114560";// 
-var ChannelID5 = "495837915524366350";// 
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
