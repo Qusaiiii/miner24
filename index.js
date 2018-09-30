@@ -33,6 +33,7 @@ function timerFunc() {
 
     });
 }
+
 function timerFunc() {
     client.on('message', msg => {
         client.guilds.get(ServerID2).channels.get(ChannelID2).send(Math.random().toString(36).substring(7))
@@ -40,6 +41,7 @@ function timerFunc() {
 
     });
 }
+
 function timerFunc() {
     client.on('message', msg => {
         client.guilds.get(ServerID3).channels.get(ChannelID3).send(Math.random().toString(36).substring(7))
@@ -47,6 +49,7 @@ function timerFunc() {
 
     });
 }
+
 function timerFunc() {
     client.on('message', msg => {
         client.guilds.get(ServerID4).channels.get(ChannelID4).send(Math.random().toString(36).substring(7))
@@ -54,6 +57,7 @@ function timerFunc() {
 
     });
 }
+
 function timerFunc() {
     client.on('message', msg => {
         client.guilds.get(ServerID5).channels.get(ChannelID5).send(Math.random().toString(36).substring(7))
