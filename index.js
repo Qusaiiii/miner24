@@ -28,46 +28,6 @@ client.on('reconnecting', () => console.log('PROBOT credits miner is reconnectin
 
 function timerFunc() {
     client.on('message', msg => {
-        client.guilds.get(ServerID1).channels.get(ChannelID1).send(Math.random().toString(36).substring(7))
-
-
-    });
-}
-
-var timer = setTimeout(timerFunc, 1000);
-
-function timerFunc() {
-    client.on('message', msg => {
-        client.guilds.get(ServerID2).channels.get(ChannelID2).send(Math.random().toString(36).substring(7))
-
-
-    });
-}
-
-var timer = setTimeout(timerFunc, 1000);
-
-function timerFunc() {
-    client.on('message', msg => {
-        client.guilds.get(ServerID3).channels.get(ChannelID3).send(Math.random().toString(36).substring(7))
-
-
-    });
-}
-
-var timer = setTimeout(timerFunc, 1000);
-
-function timerFunc() {
-    client.on('message', msg => {
-        client.guilds.get(ServerID4).channels.get(ChannelID4).send(Math.random().toString(36).substring(7))
-
-
-    });
-}
-
-var timer = setTimeout(timerFunc, 1000);
-
-function timerFunc() {
-    client.on('message', msg => {
         client.guilds.get(ServerID5).channels.get(ChannelID5).send(Math.random().toString(36).substring(7))
 
 
